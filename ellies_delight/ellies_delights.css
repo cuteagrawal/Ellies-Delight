@@ -1,0 +1,245 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+.one{
+    width: 100%;
+    height: 60px;
+    /* background-color: chocolate; */
+    background-color: #f1faee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+.landing_page{
+    width: 100%;
+    
+    /* background-color: brown; */
+}
+.landing_one{
+    width: 100%;
+    height: 300px;
+    background-color: #f1faee;
+}
+.landing_two{
+    width:100%;
+    height:360px;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 20px ;
+}
+.landing_img{
+    width:300px;
+    position: absolute;
+    right:0%;
+}
+.contact{
+    width: 85%;
+    height:120px;
+    /* background-color: #457b9d; */
+    background-color: pink;
+    border-radius: 10px;
+    font-family: 'Exo 2', sans-serif;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+.ad{
+    width: 100%;
+    height: 200px;
+    background-color:#ffe8d6;
+    font-family: 'Noto Sans JP', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+.Ad_img{
+    width: 100px;
+}
+#ad_website{
+    font-size: 25px;
+}
+.ad_fill{
+    text-decoration: none;
+    color: inherit;
+}
+.pricing{
+    width: 100%;
+    height: 1600px;
+    background-color: #90e0ef;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    font-family: 'Exo 2', sans-serif;
+}
+.white_chocolate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+.choc_one{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.Product_one{
+    width: 240px;
+    border-radius: 20px;
+}
+
+.dark_chocolate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+.choc_two{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.Product_two{
+    width: 240px;
+    border-radius: 20px;
+}
+
+.chocolate_bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+.choc_three{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.Product_three{
+    width: 240px;
+    border-radius: 20px;
+}
+.buy_button{
+    width: 80%;
+    height:40px;
+    border-radius: 10px;
+    background-color: blue;
+    color:white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+    font-weight: 700;
+}
+table{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 8px;
+}
+.center{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: #264653 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 19px;
+    color: white;
+}
+.footer_a{
+    text-decoration: none;
+    color: inherit;
+}
+.call_now{
+    text-decoration: none;
+    color:inherit
+}
